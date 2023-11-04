@@ -10,6 +10,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <Image src={picture}  alt={"One of Ersoy Alap's painting"} />
+    <div className='container2'>
+      <Image src={picture}  alt={"One of Ersoy Alap's painting"} />
+    </div>
       )
 }
